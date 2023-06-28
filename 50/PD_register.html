@@ -1,0 +1,144 @@
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+
+<!-- Head -->
+
+<head>
+
+    <title>Production Registration</title>
+
+    <!-- Meta-Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css1/style.css" type="text/css" media="all">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all">
+
+    <!-- google fonts -->
+    <link href="//fonts.googleapis.com/css?family=Mukta:300,400,500" rel="stylesheet">
+
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+
+<body>
+
+    <section class="main">
+        <div class="bottom-grid">
+            <div class="logo">
+                <h1 style='background-color:white;width:400px;color:black;'>PRODUCTION REGISTRATION</h1>
+            </div>
+        </div>
+        <!-- register -->
+        <div class="w3lhny-register">
+            <div class="iconhny">
+            <!--   <span class="fa fa-user-plus"></span>  -->
+             </div>
+            <form action="PD_register" method="post" class="register-form" enctype='multipart/form-data'>
+            
+                <fieldset>
+                    <div class="form">
+                        <div class="form-row">
+                            <span class="fa fa-user"></span>
+                           
+                            <input type="text" class="form-text" name="name" placeholder="Name" autocomplete="off" required="">
+                        </div>
+                          <div class="form-row">
+                            <span class="fa fa-user"></span>
+                           
+                            <input type="text" class="form-text" name="empid" placeholder="Employee id" maxlength="7" autocomplete="off" required="">
+                        </div>
+                        <div class="form-row">
+                            <span class="fa fa-envelope"></span>
+                            
+                            <input type="email" class="form-text" name="email" placeholder="Email Address" autocomplete="off" required="">
+                        </div>
+                        <div class="form-row">
+                            <span class="fa fa-lock"></span>
+                            
+                            <input type="password" class="form-text" name="pass" placeholder="Password" autocomplete="off" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required="">
+                        </div>
+                        <div class="form-row">
+                            <span class="fa fa-lock"></span>
+                            
+                            <input type="password" class="form-text" name="cpass" placeholder="Confirm Password" autocomplete="off" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required="">
+                        </div>
+                         <div class="form-row">
+                            <span class="fa fa-envelope"></span>
+                            
+                            <input type="text" class="form-text" name="num" placeholder="Mobile number" maxlength="10" minlength="10"pattern="[6789][0-9]{9}" autocomplete="off" required="">
+                        </div>
+                           <div class="form-row">
+                            <span class="fa fa-envelope"></span>
+                            
+                            <input type="text" class="form-text" name="pre" placeholder="previous company details"  autocomplete="off" required="">
+                        </div>
+                        
+                        <div class="form-row">
+                            <span class="fa fa-lock"></span>
+                            
+                            <input type="number" class="form-text" name="exp" placeholder="Experience" pattern="[0-9]"  autocomplete="off" required="">
+                        </div>
+                         <div class="form-row">
+                            <span class="fa fa-lock"></span>
+                            
+                            <input type="file" name="zip" id="fileUpload" required=""/>
+                            
+                        </div>
+                        <div class="form-row button-login">
+                            <button class="btn btn-login">SIGN UP</button>
+                        </div>
+                        <div>
+                    <br><a href="index.html" class="button" style='margin-left:70%;font-family:normal;'>HOME</a>
+                        
+                        </div>
+                    </div>
+                </fieldset>
+                </form>
+
+            <!--     <span class="create-account">Or Continue With!</span> -->
+
+               <!--  <div class="social-media">
+                    <a href="#facebook" class="fb"><span class="fa fa-facebook"></span></a>
+                    <a href="#twitter" class="tw"><span class="fa fa-twitter"></span></a>
+                    <a href="#pinterest" class="pi"><span class="fa fa-pinterest"></span></a>
+                </div> -->
+               <!--  <p class="already">Already have an account <a href="#">Sign In</a></p> -->
+        </div>
+        <!-- //register -->
+        <div class="w3l-copyright">
+          <!--   <p>© 2020 Workspace Sign Up Form. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a> -->
+            </p>
+        </div>
+    </section>
+
+</body>
+<!-- //Body -->
+<style>
+.button {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 13px 28px;
+  text-align: auto;
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  border: 2px solid black;  
+  font-size: 16px;
+  margin: 3px 1px;
+  cursor: pointer;
+  height:50px;
+  text-align: right;
+}						
+</style>
+</html>
